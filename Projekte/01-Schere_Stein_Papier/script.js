@@ -64,7 +64,7 @@ function checkWinner(){
 }}
 
 
-function startCountdown(){
+function startCountdown(){ //Countdown
     let counter = 3;
     let interval = setInterval(function () {
         console.log(counter);
