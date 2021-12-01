@@ -1,5 +1,21 @@
 body{
-    
+    background-color: black;
+    margin: 0px;
+}
+
+.header{
+    background-color: gray;
+    height: 100px;
+}
+
+#game{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+}
+
+img{
+    border-radius: 300px;
 }
 
 .countainer{
@@ -7,40 +23,3 @@ body{
     flex-direction: row;
 }
 
-.header{
-font-size: 100px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-weight: 900;
-}
-
-.picture{
-
-}
-
-#bot{
-
-}
-
-#player{
-
-}
-
-#StoneScissorsPaper{
-
-}
-
-#play{
-
-}
-
-#ausgabe{
-
-}
-
-#WinLoseTie{
-
-}
-
-#Counter{
-
-}

@@ -13,31 +13,35 @@
     <div class="header">Schere-Stein-Papier</div>
 
     
-<div class="countainer">
-    <div class="Picture"> <img src="Bilder/SchereSteinPapier.jpg" alt=""></div>
-    
-    <div id="bot"></div>
+    <div class="countainer">
+        <div class="Picture"> <img src="Bilder/SchereSteinPapier.jpg" alt=""></div>
 
-    <div id="player">
 
-        <select name="SchereSteinPapier" id="StoneScissorsPaper">
-            <option value="0">Schere</option>
-            <option value="1">Stein</option>
-            <option value="2">Papier</option>
-        </select>
+        <div id="game">
 
-        <button id="play">Spielen</button>
+            <div id="player">
 
-        <div id="ausgabe"></div>
+                <select name="SchereSteinPapier" id="StoneScissorsPaper">
+                    <option value="0">Schere</option>
+                    <option value="1">Stein</option>
+                    <option value="2">Papier</option>
+                </select>
 
-       
+                <button id="play">Spielen</button>
+            </div>
+
+
+            <div id="ergebnis">
+                <div id="ausgabe"></div>
+                <div id="WinLoseTie"></div>
+            </div>
+
+        </div>
+
+        <div id="Counter"></div>
+
     </div>
 
-    <div id="WinLoseTie"></div>
-
-    <div id="Counter"></div>
-
-</div>
 
 </body>
 </html>
